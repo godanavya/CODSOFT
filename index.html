@@ -1,34 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>E-Commerce Website</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Project Management Tool</title>
+        <link rel="stylesheet"href="style.css">
     </head>
     <body>
-        <header>
-            <h1>My Store</h1>
-            <div id="cart">Cart: <span id="count">0</span></div>
-        </header>
-        <div class="products">
-            <div class="card">
-                <img src="https://via.placeholder.com/200">
-                <h3>Headphones</h3>
-                <p>999</p>
-                <button onclick="addCart()">Add to Cart</button>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/200x150">
-                <h3>Smart Watch</h3>
-                <p>1999</p>
-                <button onclick="addCart()">Add to Cart</button>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/200">
-                <h3>Mobile</h3>
-                <p>14999</p>
-                <button onclick="addCart()">Add to Cart</button>
-            </div>
-        </div>
-        <script src="script.js"></script>
+        <h1>Project Management Tool</h1>
+        <input type="text" id="projectName"placeholder="Enter Project Name">
+        <input type="date" id="projectDate">
+        <button id="addProjectBtn">Add Project</button>
+        <h2>Projects</h2>
+        <input type="text" id="taskInput"placeholder="Enter Task">
+        <button id="addTaskBtn">Add Task</button>
+        <u1 id="taskList"></u1>
+        <div id="projectList"></div>
+        <script src="script.js"></script>    
     </body>
 </html>
